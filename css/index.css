@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body,main {
+    height: 100vh;
+    font-size: 5vh;
+    overflow: hidden;
+}
+main {
+    height: 100vh;
+}
+.bg {
+position: absolute;
+z-index: -1;
+left: -10px;
+top: -10px;
+bottom: -10px;
+right: -10px;
+background: url('../images/HyQ.jpg') center center no-repeat;
+background-size: cover;
+filter: blur(4px);
+}
+.bg::before{
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+bottom: 0;
+right: 0;
+background: rgba(0,0,0,0.4);  
+}
+main section .header {
+    height: 70vh;
+    position: relative;
+}
+main section .fotter {
+    height: 30vh;
+}
+main section .header .head-left .head-img {
+    position: absolute;
+    width: 40vh;
+    height: 40vh;
+    left: 20vh;
+    top: 10vh;
+}
+.head-img img {
+    width: 40vh;
+    height: 40vh;
+}
+main section .header .head-left .head-icon {
+    width: 40vh;
+    height: 10vh;
+    position: absolute;
+    left: 20vh;
+    top: 53vh;
+    font-size: 5vh;
+    display: flex;
+}
+main section .header .head-left .head-icon > i {
+    line-height: 10vh;
+    text-align: center;
+    flex: 1;
+    color: #fff;
+}
+
+ main section .header .head-right .head-label {
+     position: absolute;
+     text-align: center;
+     width: 8vh;
+     height: 4vh;
+     line-height: 4vh;
+     background: blue;
+     color: #fff;
+     font-size: 3vh;
+     left: 70vh;
+     top: 10vh;
+ }
+ main section .header .head-right .musicName {
+     position: absolute;
+     top: 18vh;
+     left: 70vh;
+     color: #fff;
+     font-size: 8vh;
+ }
+ main section .header .head-right .head-Collection {
+     position: absolute;
+     top: 30vh;
+     left: 62vh;
+     width: 80vh;
+     height: 10vh;
+     display: flex;
+ }
+ main section .header .head-right .head-Collection > i {
+    line-height: 10vh;
+    text-align: center;
+    flex: 1;
+    font-size: 4vh;
+    color: #fff;
+ }
+ main section .header .head-right .head-Collection .iconfont > span {
+     padding-left: 1vh;
+     font-size: 3vh;
+     line-height: 10vh;
+ }
+ main section .header .head-right .schedule .schedule-a {
+     position: absolute;
+     width: 70vh;
+     height: 1vh;
+     border: 1px solid #ccc;
+     left: 70vh;
+     top: 45vh;
+     border-radius: .3vh;
+     background: #ccc;
+ }
+ main section .header .head-right .schedule .schedule-b {
+    position: absolute;
+     width: 30vh;
+     height: 1vh;
+     border: 1px solid #ccc;
+     left: 70vh;
+     top: 45vh;
+     border-radius: .3vh;
+     background: #fff;
+ }
+ main section .header .head-right .time {
+    position: absolute;
+    left: 145vh;
+    top: 43vh;
+    font-size: 4vh;
+    color: #fff;
+ }
+ main section .header .head-right .geName {
+    position: absolute;
+    left: 70vh;
+    top: 50vh;
+    color: #fff;
+    font-size: 5vh;
+ }
+ main section .header .head-right p {
+    position: absolute;
+    left: 70vh;
+    top: 60vh;
+    color: #ccc;
+    font-size: 4vh;
+ }
+
+ main section .fotter {
+     background: rgba(163, 160, 160, 0.4);
+     text-align: center;
+     
+ }
+ .clearfix::after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+ main section .fotter .fotter-list {
+     position: absolute;
+     left: 10vh;
+ }
+ main section .fotter .fotter-list .listLi {
+     float: left;
+     display: block;
+     margin-left: 5vh;
+     padding-top: 3vh;
+     width: 30vh;
+     height: 30vh;
+     color: #fff;
+     font-size: 3vh;
+    text-align: center;
+ }
+ main section .fotter .fotter-list .listLi img {
+     top: 1vh;
+     width: 20vh;
+     height: 20vh;
+ }
+ .tanChuang {
+     display: none;
+ }
+ section .backgd {
+        background: url('images/HyQ.jpg') no-repeat center center;
+        background-size: cover;
+        height:110vh;
+}
+section .bg {
+        float: left;
+        width: 110%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+    }
+    section .yinCang .img {
+    background: url('../images/HyQ.jpg') no-repeat center center; 
+    width: 30vh;
+    height: 30vh;
+    }
+section .yinCang .music-img {
+    position:absolute;
+    top: 25vh;
+    left: 60vh;
+    text-align: center;
+}
